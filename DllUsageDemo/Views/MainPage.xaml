@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:vm="clr-namespace:DllUsageDemo.ViewModels"
+			 x:Class="DllUsageDemo.Views.MainPage"
+			 x:DataType="vm:MainViewModel"			
+			 >
+	<Grid RowSpacing="10" RowDefinitions="3*,1*">
+		<Editor Text="{Binding ErrorMessage}" Grid.Row="0" Margin="10"/>
+		<Button
+            Text="Click me!"
+            Command="{Binding SelectImageCommand}" Margin="10" Grid.Row="1"/>
+	</Grid>
+</ContentPage>
