@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFrameworks>net7.0-android;net7.0-ios</TargetFrameworks>
@@ -48,7 +48,7 @@
 	<ItemGroup>
 	  <PackageReference Include="CommunityToolkit.Maui" Version="4.0.0" />
 	  <PackageReference Include="CommunityToolkit.MVVM" Version="8.1.0" />
-	  <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="12.2.2" />
+	  <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="13.3.0" />
 	</ItemGroup>
 
 	<PropertyGroup Label="MauiAppAccelerator">
